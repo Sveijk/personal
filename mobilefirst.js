@@ -1,0 +1,2 @@
+document.getElementsByTagName("h1")[0].innerHTML = "Sabine van der Eijk"
+document.getElementById("puppy").src = "https://scontent-cdt1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/21435784_164197287491196_6592884913731534848_n.jpg"

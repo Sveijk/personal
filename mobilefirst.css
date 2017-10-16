@@ -1,0 +1,96 @@
+.sveijk	{
+	color: black;
+	background-color: white;
+	border-color: white;
+}
+
+li a {
+	text-decoration: none;	
+	color: black;
+	font-size: 12px;
+}
+
+li a:hover	{
+	background-color: purple;
+	border-color: purple;
+	padding: 5px;
+	border-radius: 15px;
+	color: white;	
+}
+
+li {
+	border-style: solid;
+	background-color: lightblue;
+	border-color: lightblue;
+	border-radius: 15px;
+	padding: 4px;
+	margin: 3px;
+	list-style-type: none;
+	display: inline-block;
+	font-family: Helvetica;
+	color: white;
+}
+
+img	{
+	width: 100%;
+	height: 100%;
+}
+
+.responsive {
+	border: 1px;
+	padding: 0 6px;
+	float: left;
+	width: 24.0%;
+}
+
+@media only screen and (max-width: 700px) {
+	.responsive {
+		width: 49.0%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.responsive {
+		width: 100%;
+	}
+}
+
+.subtitle {
+	padding: 15px;
+	text-align: center;
+	font-family: Gill sans; serif;
+}
+
+#about {
+	font-family: Gill sans; serif;
+}
+
+.font {
+	font-family: Helvetica;
+	font-size: 12px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.clear:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+article	{
+	border: blue solid 5px;
+	border-radius: 10px;
+	border-color: lightblue;
+	clear: left;
+	width: 300px;
+	margin: auto;
+	padding: 10px;
+}
+
+
+
+
